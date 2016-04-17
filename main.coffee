@@ -21,7 +21,7 @@ shift_replace = {",": "<", ".": ">", "/": "?", ";": ":", "'": "\"", "1": "!", "2
 
 hardcore_mode = false
 
-kill = 5
+kill = 60
 fade = 3
 
 format_time = (time) ->
