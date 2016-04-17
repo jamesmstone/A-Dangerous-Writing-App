@@ -123,6 +123,8 @@ die = function() {
   var time, words;
   words = input.value.split(/\s+/).length - 1;
   time = format_time(session_length - time_left);
+  console.log(input);
+  console.log(input.value);
   input.value = '';
   input.disabled = true;
   input.placeholder = "";
